@@ -1,0 +1,116 @@
+.title-bar{
+  background: white;
+}
+.cell{
+  border:1px solid blue;
+}
+
+
+/*special menue*/
+.menu-hover-lines {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.35s ease;
+}
+
+.menu-hover-lines li a {
+  padding: 0.75rem 0;
+  color: rgba(10, 10, 10, 0.5);
+  position: relative;
+  margin-left: 1rem;
+}
+
+.menu-hover-lines li:first-child a {
+  margin-left: 0;
+}
+
+.menu-hover-lines li.active > a {
+  background-color: transparent;
+}
+
+.menu-hover-lines a:before,
+.menu-hover-lines a::after {
+  height: 3px;
+  position: absolute;
+  content: '';
+  transition: all 0.35s ease;
+  background-color: #1779ba;
+  width: 0;
+}
+
+.menu-hover-lines a::before {
+  top: 0;
+  left: 0;
+}
+
+.menu-hover-lines a::after {
+  bottom: 0;
+  right: 0;
+}
+
+.menu-hover-lines a:hover,
+.menu-hover-lines li.active > a {
+  color: #0a0a0a;
+  transition: all 0.35s ease;
+}
+
+.menu-hover-lines a:hover::before,
+.menu-hover-lines .active a::before,
+.menu-hover-lines a:hover::after,
+.menu-hover-lines .active a::after {
+  width: 100%;
+}
+/*special menue*/
+
+ul{
+   list-style-type: none;
+  }
+
+
+
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul>li{
+  text-align: center;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: blue;
+}
+
+
+a:hover {
+    color: green;
+}
+
+
+
+h3{
+  text-decoration: underline;
+}
+
+#subtitle{
+  font-size: 35px;
+  color:black;
+}
+
+#extra{
+  margin-bottom: 3em;
+}
+
+
+#footer{
+  padding: 25px;
+  background-color: rgb(44, 73, 127);
+  color:white;
+  text-align: center;
+}
