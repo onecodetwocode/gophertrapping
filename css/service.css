@@ -1,10 +1,14 @@
 .title-bar{
   background: white;
 }
-.cell{
+/*.cell{
   border:1px solid blue;
-}
+}*/
 
+
+.title-bar-right{
+
+}
 
 /*special menue*/
 .menu-hover-lines {
@@ -73,9 +77,10 @@ ul{
 
 p{
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-ul>li{
+li{
   text-align: center;
 }
 
@@ -93,10 +98,10 @@ a:hover {
 }
 
 
-
 h3{
-  text-decoration: underline;
+  text-align: center;
 }
+
 
 #subtitle{
   font-size: 35px;
@@ -105,6 +110,9 @@ h3{
 
 #extra{
   margin-bottom: 3em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+font-size: 35px;
 }
 
 

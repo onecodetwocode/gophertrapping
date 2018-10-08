@@ -1,5 +1,5 @@
-/*.title-bar{background: rgb(128,138,159);}*/
-.cell{border:1px solid blue;}
+
+/*.cell{border:1px solid blue;}*/
 .title-bar{background: white}
 
 /*special menue*/
@@ -60,10 +60,33 @@
 }
 /*special menue*/
 
+img.align-left{
+  margin: 1em;
+}
+
+.star{
+  margin-left: 15px;
+}
+
+p.help{
+  text-align: right;
+}
+
+.yelp{
+  margin: 2.5em;
+  text-align: center;
+}
 
 #mission{
   font-size: 32px;
+  color: white;
+  background-color: #0095f3;
   text-align: center;
+  margin: 2em;
+}
+
+#blue{
+  background-color: #0095f3;
 }
 
 #subtitle{
@@ -71,31 +94,80 @@
   color:black;
 }
 
-
+#zach{
+  text-align: center;
+  margin: 1em;
+}
 
 #statement{
   text-align: center;
   font-size: 28px;
 }
 
-#about{
-  font-size: 15px;
+#number{
   text-align: center;
+  background-color: #e58412;
+  color: white;
+  font-size: 30px;
+}
+
+
+
+#estimate{
+  text-align: right;
+  color: white;
+  background-color: red;
+  font-size: 35px;
+}
+
+#about{
+  font-size: 28px;
+  text-align: center;
+  margin: 2em;
 }
 
 #what{
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
+  margin: 2em;
+  color: white;
+  background-color: #e58412;
 }
 
-#img{
+#orange{
+  background-color: #e58412;
+}
+
+i.fa-plus{
+  display: block;
+  font-size: 25px;
+  /*text-align: center;*/
+  color: white;
+  margin: 1.2em;
+
+}
+
+i.fa-arrow-down{
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.blue{
+  background-color: #0095f3;
+
+}
+
+
+section.img{
   margin-top: 2em;
   margin-bottom: 2em;
   text-align: center;
 }
 
+
 #footer{
-  padding: 25px;
+  padding: 35px;
   background-color: rgb(44, 73, 127);
   color:white;
   text-align: center;
@@ -104,6 +176,15 @@
 #section{
   text-align: center;
 }
+
+#tech{
+  font-size: 25px;
+}
+
+#size{
+  font-size: 19px;
+}
+
 
 a{
   color: inherit;
@@ -120,7 +201,7 @@ figure{
 
 
 ul>li{
-  word-spacing: 100px;
+  /*word-spacing: 100px;*/
 }
 
 img.align-left{
@@ -130,6 +211,8 @@ img.align-left{
 #social{
   text-align: center;
   display: inline;
+  color: white;
+  background-color: #0095f3;
 }
 
 li{
@@ -141,14 +224,23 @@ li{
 p{
   font-family: 'Montserrat', sans-serif;
 }
+
+
+h1{
+  text-align: center;
+  color: #e58412;
+
+}
 h2{
   text-align: center;
-}
-h3{
-  text-align: center;
-  text-decoration: underline;
 }
 h4{
   text-align: center;
   font-size: 45px;
+  color:#e58412;
+
+}
+
+h5{
+  margin-left: 15px;
 }
