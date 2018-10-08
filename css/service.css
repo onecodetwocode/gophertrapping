@@ -85,27 +85,34 @@ li{
 }
 
 a:link {
-    color: black;
+    color: white;
 }
 
 a:visited {
-    color: blue;
+    color: white;
 }
 
 
 a:hover {
-    color: green;
+    color: black;
 }
 
 
-h3{
+h1{
   text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+#blu{
+  background-color: #0095f3;
 }
 
 
 #subtitle{
   font-size: 35px;
   color:black;
+  text-align: left;
 }
 
 #extra{
